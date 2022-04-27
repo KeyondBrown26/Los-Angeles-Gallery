@@ -1,0 +1,74 @@
+/* Master Styles */
+body{
+    margin: 0px;
+    color: black;
+    background-color: beige;
+}
+.container{display: grid; grid-template-columns: 1fr;}
+/* Nav Styles */
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side{display: flex;}
+
+.nav-wrapper >.left-side > div {margin-right: 20px; font-size: 0.9em; text-transform: uppercase;
+}
+
+.nav-link-wrapper{height: 22px; border-bottom:1px solid transparent;
+transition: border-bottom 0.5s;}
+
+.nav-link-wrapper a{
+    color: black; text-decoration: none; transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+.Heading{
+    font-style: italic;
+    text-align: center;
+}
+/* Portfolio Styles */
+
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    object-fit: cover;
+    display: flex grid; grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.Downtown-Los-Angeles{
+    float: left;
+}
+
+.Los-Angeles-Skyline{
+    float: right;
+}
+
+.Malibu-Sunset{
+    float: right;
+}
+
+.City-Los-Angeles{
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+
