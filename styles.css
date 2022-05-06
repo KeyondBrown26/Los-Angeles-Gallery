@@ -38,11 +38,12 @@ transition: border-bottom 0.5s;}
 }
 /* Portfolio Styles */
 
-.gallery{
+.gallery{ text-align: center;
     margin: 10px 50px;
 }
 
 .gallery img{
+align-content: space-around;
     width: 250px;
     height: 250px;
     padding: 5px;
@@ -50,24 +51,6 @@ transition: border-bottom 0.5s;}
     display: flex grid; grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
 }
-
-.Downtown-Los-Angeles{
-    float: left;
-}
-
-.Los-Angeles-Skyline{
-    float: right;
-}
-
-.Malibu-Sunset{
-    float: right;
-}
-
-.City-Los-Angeles{
-    text-align: center;
-    font-style: italic;
-}
-
 
 
 
